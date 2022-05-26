@@ -1,0 +1,511 @@
+*{
+    font-family: "roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+
+
+
+/* NAVBAR */
+.navbar {
+    background-color: #009459;
+    opacity: 0.8;
+}
+
+.img-navbar {
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.navbar-brand {
+    margin:0;
+    padding: 0;
+}
+
+/* NAVBAR FIN */
+
+
+/* BUSCADOR INDEX */
+
+.search {
+    margin-top: 0;
+    padding-top: 0;
+    background: url("/images/bg-search.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    
+}
+
+
+.buscador{  
+    align-self: center;
+    margin: 30px 0;
+    margin-bottom: 3px;
+
+   
+ }
+ .buscador-gif {
+   padding-top: 30px;
+   padding-left: 20px;
+   padding-bottom: 0px;
+   padding-right: 30px;
+  
+ }
+ .busca-home{   
+   width: 100%;  
+   border: 1px solid #009459;
+   color: #b3b3b3;
+   text-decoration: none;
+   padding: 8px 10px;
+   background: #fff;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: center;
+   border-radius: 8px;
+   opacity: 0.8;
+ }
+
+
+/* FIN BUSCADOR INDEX */
+
+
+
+/* ESTILOS CARDS */
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS FORMULARIO LOGIN REGISTRO*/
+.login-register {
+    margin-top: 100px;
+}
+
+.form-login {
+    width: 400px;
+    height: 300px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 0px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #009459;
+    color: white;
+    opacity: 0.85;
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .form-register {
+    width: 400px;
+    height: 420px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #009459;
+    color: white;
+    opacity: 0.85;
+  }
+  
+  .form-register h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  
+  .line-register {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+  }
+  
+  .input-login {
+    width:  100%;
+    border: 1px solid #011F38;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+  .btn-login {
+      width: 100%;
+      height: 40px;
+      background: #009459;
+      border: none;
+      color: #fff;
+      margin-bottom: 14px;
+  }
+  
+  .form-login p {
+      height: 40px;
+      text-align: center;
+     
+  
+  }
+  
+  .form-login a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+  
+  }
+  .form-login a:hover {
+      text-decoration: underline;
+  }
+  
+
+  /* FIN ESTILOS FORMULARIO LOGIN REGISTER*/
+
+/* ESTILOS FOOTER */
+
+.footer{
+    width: 100%;
+    background: #009459;
+    margin-top: 2.3em;
+    justify-content: space-between;
+    color:#fff;
+   
+}
+.footer div{
+    width: 100%;
+    padding: 1em;
+   
+    text-align: center;
+}
+.footer h4{
+    margin-bottom: 1em;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer .payment-methods img {
+    width: 28%;
+    display: block;
+    margin:  4px auto;
+}
+
+.footer  .partners a{
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+/* FIN ESTILOS FOOTER */
+
+/* INICIO ESTILOS INDEX */
+
+.cards {
+    padding: 25px;
+}
+
+.img-card {
+border-radius: 80px;
+
+
+}
+
+.title-card {
+     width: 100%;
+      height: auto;
+      background: #009459;
+      border: none;
+      color: #fff;
+      margin-bottom: 0px;
+      padding: 4px;
+
+}
+
+.text-card {
+    width: auto;
+    background: #4e4d4d;
+    margin: auto;
+    
+    margin-bottom: 25px;
+    
+    padding: 20px 30px;
+    
+    color: white;
+    opacity: 0.85;
+}
+
+.font-heading {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+/* elementos sueltos index*/
+
+.divisor-index-1 {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* carousel */
+
+.carousel-size {
+    height: 100px;
+
+}
+
+
+@media (min-width: 800px) {
+    .search {
+        display: none;
+    }
+    
+}
+
+
+.division-1 {
+    background-color: #009459;
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+
+/* PRODUCTCART */
+h1 {
+    padding:1.25rem 0;
+    text-align: left;
+}
+
+.cart{
+    display: flex;
+    margin-left:1.5rem;
+
+}
+.products{
+    flex: 0.75;
+}
+.product{
+    display: inline-flex;
+    flex-direction: row;
+    width:80%;
+    height: 12.5rem;
+    overflow: hidden;
+    border: 1px solid silver;
+    margin-bottom: 0.75rem;
+}
+.product:hover{
+    border: none;
+    box-shadow:  2px 2px 4px rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+
+.product > img{
+    width: 18.75rem;
+    height:12.5rem;
+    object-fit: cover ;
+
+    
+}
+.product > img:hover{
+    transform: scale(1.04);
+}
+.product-info{
+    padding: 1.25rem;
+    width: 100%;
+    position: relative;
+}
+.product-name{
+    margin-bottom: 1.25rem;
+}
+.product-eliminar{
+    position: absolute;
+    bottom:1.25rem;
+    right: 1.25rem;
+    padding: 0.625rem 1.56rem;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product-eliminar:hover{
+    background-color: rgb(224, 24, 24);
+    font-weight: 600;
+  
+
+}
+.product-cantidad > input{
+    width: 2.5rem;
+    padding: 0.31rem;
+    text-align: center;
+}
+.fa{
+    margin-right: 0.31rem;
+}
+.cart-total{
+    position: absolute;
+    top:19.5rem;
+    right: 12.5rem;
+    flex:0.25;
+    float: right;
+    margin-left: 1.25rem;
+    padding: 1.25rem; 
+    height: 15rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    z-index: 100;
+}
+.cart-total p{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 1.875rem;
+     font-size: 1.25rem;
+}
+.cart-total a{
+    display: block;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: rgb(44, 56, 122);
+    color: white;
+    text-decoration: none;
+}
+.cart-total a:hover{
+    background-color: rgb(64, 84, 194);
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button {
+    background-color: green;
+    padding: 1rem 1rem;
+    border: 0px solid transparent;
+    border-radius: 5px solid;
+    color: white;
+    width: 6rem;
+    height: 3rem;
+}
+
+.pagoresp {
+    display:none
+}
+.button button:hover {
+    background-color: rgb(177, 59, 59);
+    font-weight: 600;
+  
+
+}
+
+
+
+
+
+@media (max-width: 900px){
+
+
+    .product {
+        height: 16rem;
+        width: 100%;
+    }
+    .product img {
+        width: 50%;
+        height: 100%;
+    }
+
+	.cart{
+        display: flex;
+		flex-direction: row;
+
+	}
+
+	.cart-total{
+		margin-left: 0;
+		margin-bottom: 1.25rem;
+
+	}
+
+    .cart-total {
+        display:none;
+    }
+
+    button {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .button {
+        margin: 0.5rem 0.5rem;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .pagoresp {
+        display:flex;
+        flex-direction: column;
+        border: 1px solid silver;
+        margin-top: 1rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .pagbut {
+        background-color: blue;
+        color: white;
+        font-weight: bold ;
+        padding: 0.5rem 0.5rem;
+    }
+
+    
+}
+
+
+/* FIN PRODUCTCART */
+
