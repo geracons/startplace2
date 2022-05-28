@@ -44,12 +44,41 @@ body {
 .search {
     margin-top: 0;
     padding-top: 0;
-    background: url("/images/bg-search.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 480px;
+
+
     
 }
+.botoncitos {
+    margin-top: 10px;
+    margin-bottom: -8px;
+    text-align: center;
+    
+}
+.es-pepito {
+    display: none;
+}
+@media (min-width: 898px) {
+    .botoncitos {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+ 
+}
+@media (min-width: 1200px) {
+    .botoncitos {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: start;
+    
+    }
+    .es-pepito {
+        display: block;
+    }
+
+}
+
+
 
 
 .buscador{  
