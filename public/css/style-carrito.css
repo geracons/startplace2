@@ -272,3 +272,15 @@ h1 {
          border-left: 1px solid black;
     }
 }
+
+
+.productcart {
+    margin-top: 120px;
+    margin-bottom: 620px;
+}
+
+@media (max-width: 625px) {
+    .productcart {
+        margin-bottom: 900px;
+    }
+}

@@ -234,12 +234,12 @@ body {
 /* INICIO ESTILOS INDEX */
 
 .cards {
-    padding: 25px;
+    padding: 10px;
 }
 
 .img-card {
 border-radius: 80px;
-
+padding: 0;
 
 }
 
@@ -261,10 +261,15 @@ border-radius: 80px;
     
     margin-bottom: 25px;
     
-    padding: 20px 30px;
+    padding: 10px 20px;
     
     color: white;
     opacity: 0.85;
+}
+@media (max-width: 1200px) {
+    .text-card {
+        display: none;
+    }
 }
 
 .font-heading {
@@ -281,6 +286,11 @@ border-radius: 80px;
     text-align: center;
     margin-bottom: 30px;
 }
+@media (min-width: 700px) {
+    .divisor-index-1 { 
+        display: none; 
+    }
+}
 
 
 
@@ -295,12 +305,7 @@ border-radius: 80px;
 }
 
 
-@media (min-width: 800px) {
-    .search {
-        display: none;
-    }
-    
-}
+
 
 
 .division-1 {
@@ -509,5 +514,58 @@ h1 {
 
 /* FIN PRODUCTCART */
 
+/*search box css start here*/
+.search-sec{
+    padding: 10px;
+    width: 100%;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:20;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: 0px;
+        background: #009459;
+    }
+}
 
+@media (max-width: 992px){
+    .search-sec{
+        background: #009459;
+    }
+}
 
+.carousel-index {
+    margin-top: 78px;
+
+}
+
+@media (max-width: 770px) {
+.btn-2 {
+    display: none;
+}
+.btn-3 {
+    display: none;
+}
+.search-btn-sub {
+    display: none;
+}
+}
