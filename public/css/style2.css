@@ -708,6 +708,8 @@ h1 {
     color: #434343;
     text-align: center;
   }
+ 
+
   .inner-test{
     max-width: 1200px;
     margin: auto;
@@ -728,6 +730,19 @@ h1 {
     box-sizing: border-box;
     padding: 15px;
   }
+  @media(max-width: 750px) {
+    .row-test {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .col-test {
+        max-width: 100%;
+    }
+}
+
   .testimonial-test{
     background: #fff;
     padding: 30px;
@@ -748,4 +763,3 @@ h1 {
   }
  /* FIN OPINIONES Y ESTRELLAS*/
 
- 
