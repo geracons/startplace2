@@ -155,8 +155,21 @@ body {
 
 
 /* ESTILOS FORMULARIO LOGIN REGISTRO*/
+.login-logo {
+    text-align: center;
+    
+}
+.login-logo img {
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
 .login-register {
-    margin-top: 100px;
+    margin-top: 77px;
+    background: url('/images/bg-login-1.jpg');
 }
 
 .form-login {
@@ -170,6 +183,7 @@ body {
     border-top: 4px solid #009459;
     color: white;
     opacity: 0.85;
+    border-radius: 15px;
   }
   
   .form-login h5 {
@@ -193,6 +207,7 @@ body {
     border-top: 4px solid #009459;
     color: white;
     opacity: 0.85;
+    border-radius: 15px;
   }
   
   .form-register h5 {
