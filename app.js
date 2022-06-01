@@ -15,7 +15,15 @@ app.listen(PORT, () => {
 
 app.use(express.static(path.join(__dirname, "public")));
 
+//
+const mainRoutes = require("./routes/main.js")
 
+app.set("view engine", "ejs");
+
+app.use("/", mainRoutes);
+
+
+/*
 //camino path ruta
 app.get("/", (req, res) => {
 
@@ -53,5 +61,5 @@ app.get("/login2", (req, res)  => {
     res.sendFile(path.join(__dirname, "views/login2.html"));
 });
 
-
+*/
 
