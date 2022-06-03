@@ -1,344 +1,262 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Trip Starter</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style2.css" />
-
-    <link rel="stylesheet" href="css/style-productDetail.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <%-include ("./partials/head") %> 
+    <link rel="stylesheet" href="css/style-productDetail.css" />
   </head>
   <body>
 
-    <nav class="navbar fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><div class="img-navbar"><img src="images/logo-nobg.png" width="100%"></div></a>
-       
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tripstater</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <header>
+      <%-include ("./partials/header") %> 
+    </header>
+
+    <main>
+      <div class="container-xxl login-register">
+        <main class="main-detail">
+         <!-- <section class="logo-login"> 
+            <img src="/images/logo-nobg.png" alt="logo">
+        </section> -->
+        <section class="product-detail">
+          <div class="img-container">
+            <h2>Tour montañas rocosas</h2>
+            <img src="/images/tour-alternativo-3-.jpg" alt="">
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">Tours</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/login">Login </a>
-              </li>
-              
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="¿A dónde te gustaría ir?" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+          <div class="product-description div">
+            <p class="description">Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni placeat impedit sint architecto, minima iure ullam odio tempore doloremque quibusdam, rem quo expedita aut! Repellat porro quae cumque quos?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse vero modi odio quibusdam expedita rem dolore architecto minus inventore amet nobis reprehenderit officia ex itaque quas, nesciunt officiis ipsum debitis.
+            </p>
+             </div>
+          <div class="product-price div">
+            <h3>$4.000ARS</h3>
           </div>
-        </div>
+          <div class="button-container div">
+            <button type="submit" class="button">Agregar al carrito</button>
+            <button type="submit" class="button">Comprar</button>
+          </div>
+        </section>
+        </main>
       </div>
-    </nav>
-
-
-
-
-
-
-    <div class="container-xxl login-register">
-      <main class="main-detail">
-       <!-- <section class="logo-login"> 
-          <img src="/images/logo-nobg.png" alt="logo">
-      </section> -->
-      <section class="product-detail">
-        <div class="img-container">
-          <h2>Tour montañas rocosas</h2>
-          <img src="/images/tour-alternativo-3-.jpg" alt="">
-        </div>
-        <div class="product-description div">
-          <p class="description">Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni placeat impedit sint architecto, minima iure ullam odio tempore doloremque quibusdam, rem quo expedita aut! Repellat porro quae cumque quos?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse vero modi odio quibusdam expedita rem dolore architecto minus inventore amet nobis reprehenderit officia ex itaque quas, nesciunt officiis ipsum debitis.
-          </p>
-           </div>
-        <div class="product-price div">
-          <h3>$4.000ARS</h3>
-        </div>
-        <div class="button-container div">
-          <button type="submit" class="button">Agregar al carrito</button>
-          <button type="submit" class="button">Comprar</button>
-        </div>
-      </section>
-      </main>
-    </div>
-
-    <div class="row-test opinions">
-      <div class="col-test">
-        <span class="heading">Opiniones del tour</span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<p>4.1 promedio basado en 254 opiniones </p>
-<hr style="border:3px solid #f1f1f1">
-
-<div class="row-test">
-  <div class="side">
-    <div>5 Estrellas</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-5"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>150</div>
-  </div>
-  <div class="side">
-    <div>4 Estrellas</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-4"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>63</div>
-  </div>
-  <div class="side">
-    <div>3 Estrellas</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-3"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>15</div>
-  </div>
-  <div class="side">
-    <div>2 Estrellas</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-2"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>6</div>
-  </div>
-  <div class="side">
-    <div>1 Estrella</div>
-  </div>
-  <div class="middle">
-    <div class="bar-container">
-      <div class="bar-1"></div>
-    </div>
-  </div>
-  <div class="side right">
-    <div>2</div>
-  </div>
-</div>
-      </div>
-    </div>
-
-    <div class="testimonials">
-      <div class="inner-test">
-        
-       
-
-        <div class="row-test">
-          <div class="col-test">
-            <div class="testimonial-test">
-              <img src="/images/p3.png" alt="">
-              <div class="name-test">Luciana</div>
-              <div class="stars">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-
-              <p>
-                Lo que más me gustó fué la predisposición del guía. La actividad superó mis espectativas. Lo super recomiendo!!
-               </p>
-            </div>
-          </div>
-
-          <div class="col-test">
-            <div class="testimonial-test">
-              <img src="/images/p2.png" alt="">
-              <div class="name-test">Roberta</div>
-              <div class="stars-test">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-              </div>
-
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-            </div>
-          </div>
-
-          <div class="col-test">
-            <div class="testimonial-test">
-              <img src="/images/p1.png" alt="">
-              <div class="name-test">Lionel</div>
-              <div class="stars-test">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-              </div>
-
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-
-    <div class="row">
-      <div class="col"> <h2 class="font-heading">Tours similares</h2> </div>
-      
   
-  </div>
-
-
-
-
-  <div class="container">
-    <div class="row row-cols-1  row-cols-sm-1 row-cols-lg-3 row-cols-xl-3 g-2 g-lg-3">
-      <div class="col">
-        <div class="p-3 border bg-light"> 
-          <article>
-            <div class="img-card"> <img width="100%" src="/images/recomendado1.png" alt="Praga" />
-                <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
-            </div>
-                <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
-        </article>
-        </div>
+      <div class="row-test opinions">
+        <div class="col-test">
+          <span class="heading">Opiniones del tour</span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <p>4.1 promedio basado en 254 opiniones </p>
+  <hr style="border:3px solid #f1f1f1">
+  
+  <div class="row-test">
+    <div class="side">
+      <div>5 Estrellas</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-5"></div>
       </div>
-      <div class="col">
-        <div class="p-3 border bg-light">
-          <article>
-            <div class="img-card"> <img width="100%" src="/images/recomendado2.png" alt="Praga" />
-                <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
-            </div>
-                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
-        </article>
-        </div>
+    </div>
+    <div class="side right">
+      <div>150</div>
+    </div>
+    <div class="side">
+      <div>4 Estrellas</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-4"></div>
       </div>
-      <div class="col">
-        <div class="p-3 border bg-light">
-          <article>
-            <div class="img-card"> <img width="100%" src="/images/recomendado3.png" alt="Praga" />
-                <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
-            </div>
-                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
-        </article>
-        </div>
+    </div>
+    <div class="side right">
+      <div>63</div>
+    </div>
+    <div class="side">
+      <div>3 Estrellas</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-3"></div>
       </div>
-      <div class="col">
-        <div class="p-3 border bg-light">
-          <article>
-            <div class="img-card"> <img width="100%" src="/images/recomendado4.png" alt="Praga" />
-                <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
-            </div>
-                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
-        </article>
-        </div>
+    </div>
+    <div class="side right">
+      <div>15</div>
+    </div>
+    <div class="side">
+      <div>2 Estrellas</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-2"></div>
       </div>
-      <div class="col">
-        <div class="p-3 border bg-light">
-          <article>
-            <div class="img-card"> <img width="100%" src="/images/recomendado5.png" alt="Praga" />
-                <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
-            </div>
-                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
-        </article>
-        </div>
+    </div>
+    <div class="side right">
+      <div>6</div>
+    </div>
+    <div class="side">
+      <div>1 Estrella</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-1"></div>
       </div>
-      <div class="col">
-        <div class="p-3 border bg-light">
-          <article>
-            <div class="img-card"> <img width="100%" src="/images/recomendado6.png" alt="Praga" />
-                <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
-            </div>
-                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
-        </article>
-        </div>
-      </div>
-      
+    </div>
+    <div class="side right">
+      <div>2</div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
+        </div>
+      </div>
+  
+      <div class="testimonials">
+        <div class="inner-test">
+          
+         
+  
+          <div class="row-test">
+            <div class="col-test">
+              <div class="testimonial-test">
+                <img src="/images/p3.png" alt="">
+                <div class="name-test">Luciana</div>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+  
+                <p>
+                  Lo que más me gustó fué la predisposición del guía. La actividad superó mis espectativas. Lo super recomiendo!!
+                 </p>
+              </div>
+            </div>
+  
+            <div class="col-test">
+              <div class="testimonial-test">
+                <img src="/images/p2.png" alt="">
+                <div class="name-test">Roberta</div>
+                <div class="stars-test">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+  
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-test">
+              <div class="testimonial-test">
+                <img src="/images/p1.png" alt="">
+                <div class="name-test">Lionel</div>
+                <div class="stars-test">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+  
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+  
+  
+      <div class="row">
+        <div class="col"> <h2 class="font-heading">Tours similares</h2> </div>
+        
+    
+    </div>
+  
+  
+  
+  
+    <div class="container">
+      <div class="row row-cols-1  row-cols-sm-1 row-cols-lg-3 row-cols-xl-3 g-2 g-lg-3">
+        <div class="col">
+          <div class="p-3 border bg-light"> 
+            <article>
+              <div class="img-card"> <img width="100%" src="/images/recomendado1.png" alt="Praga" />
+                  <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
+              </div>
+                  <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
+          </article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">
+            <article>
+              <div class="img-card"> <img width="100%" src="/images/recomendado2.png" alt="Praga" />
+                  <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
+              </div>
+                   <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
+          </article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">
+            <article>
+              <div class="img-card"> <img width="100%" src="/images/recomendado3.png" alt="Praga" />
+                  <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
+              </div>
+                   <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
+          </article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">
+            <article>
+              <div class="img-card"> <img width="100%" src="/images/recomendado4.png" alt="Praga" />
+                  <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
+              </div>
+                   <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
+          </article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">
+            <article>
+              <div class="img-card"> <img width="100%" src="/images/recomendado5.png" alt="Praga" />
+                  <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
+              </div>
+                   <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
+          </article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">
+            <article>
+              <div class="img-card"> <img width="100%" src="/images/recomendado6.png" alt="Praga" />
+                  <!-- <a href="./productCart"><p>RESERVAR</p></a> -->
+              </div>
+                   <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>  
+          </article>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </main>  
 
     <footer class="footer row">
-      <div class="row align-items-center">
-        <div class="contact-us col">
-          <h4>Contactanos/ Soporte:</h4>
-          <p><i class="fas fa-envelope"></i> tripstarter@gmail.com</p>
-          <p><i class="fab fa-whatsapp"></i> +11 3900-7689</p>
-          <a href="#"> <i class="fab fa-youtube"></i> Youtube</a>
-        </div>
-        <div class="payment-methods col">
-          <h4>Metodos de pago:</h4>
-          
-          <img src="\images\1200px-Mastercard_2019_logo.svg.png" width="10%" alt="">
-          <img src="\images\JRsnuWTl_400x400.jpg" width="10%" alt="">
-          <img src="\images\logo-Paypal.png" width="10%" alt="">
-        </div>
-        <div class="partners col">
-          <h4>Partners: </h4> 
-          <a href="https://www.despegar.com.ar">Aerolineas Despegar</a>
-          <a href="https://signaturetours.com.ar">Signature Tours</a> 
-           <a href="https://www.tripadvisor.com/">Tripadvisor</a>  
-        </div>
-      </div>
+      <%-include ("./partials/footer") %> 
     </footer>
-
-
-
-     
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>

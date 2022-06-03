@@ -227,6 +227,9 @@ body {
     display: block;
     margin-bottom: 6px;
 }
+.row{
+    --bs-gutter-x:none;
+}
 
 
 /* FIN ESTILOS FOOTER */
