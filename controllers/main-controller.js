@@ -1,3 +1,4 @@
+const { path } = require("express/lib/application");
 const lugares = require("../destinos");
 
 module.exports = {

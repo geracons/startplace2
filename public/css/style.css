@@ -513,4 +513,35 @@ h1 {
 /* FIN PRODUCTCART */
 
 
+/* FORMULARIO ADMIN */
+
+
+.formularioAdminBody{
+background-color: #009459;
+}
+.col login-logo img{
+margin: 1%;
+}
+.row.adminRow{
+    margin: auto;
+    margin: 1;
+    justify-content: center;
+}
+.rowAdminForm{
+    width: 100%;
+}
+.form-login.adminForm{
+    height: 100%;
+}
+.container-xxl{
+    height: 100vh;
+}
+.justMakeSpaceBro{
+    height: 3%;
+}
+
+
+/* FIN FORMULARIO ADMIN */
+
+
 
