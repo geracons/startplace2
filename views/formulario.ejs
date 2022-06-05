@@ -14,7 +14,7 @@
         <div class="row adminRow">
             <section class="form-login adminForm">
               <h5>Nuevo tour</h5>
-              <label>Seleccionar una imagen para el perfil:</label>
+              <label>Seleccionar una imagen para el tour:</label>
               <input
                 class="input-login"
                 type="file"
@@ -52,32 +52,32 @@
               min="2018-01-01"
               max="2022-12-31"
               />
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0 btn-3">
-                <select
-                  class="form-control search-slt"
-                  id="exampleFormControlSelect1"
-                >
-                  <option selected value="" disabled>Destinos</option>
-                  <% destinos.forEach(destino => {%>
-  
-                  <option><%= destino %></option>
-  
-                  <% }); %>
-                </select>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 p-0 btn-3">
-                <select
-                  class="form-control search-slt"
-                  id="exampleFormControlSelect1"
-                >
-                  <option selected value="" disabled>Continentes</option>
-  
-                  <% continentes.forEach(continente => {%>
-  
-                  <option><%= continente %></option>
-  
-                  <% }); %>
-                </select>
+              <div class="tourOption">
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0 btn-3 exampleFormAdmin1">
+                  <select
+                    class="form-control search-slt"
+                    id="exampleFormAdmin"
+                    >
+                    <option selected value="" disabled>Destinos</option>
+                    <% destinos.forEach(destino => {%>
+                    <option><%= destino %></option>
+                    <% }); %>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0 btn-3 exampleFormAdmin1">
+                  <select
+                    class="form-control search-slt exampleFormAdmin"
+                    id="exampleFormAdmin"
+                  >
+                    <option selected value="" disabled>Continentes</option>
+    
+                    <% continentes.forEach(continente => {%>
+    
+                    <option><%= continente %></option>
+    
+                    <% }); %>
+                  </select>
+                </div>
               </div>
               <input
                 class="input-login"

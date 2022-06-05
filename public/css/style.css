@@ -534,10 +534,19 @@ margin: 1%;
     height: 100%;
 }
 .container-xxl{
-    height: 100vh;
+    height: 146vh;
 }
 .justMakeSpaceBro{
     height: 3%;
+}
+.tourOption{
+display: flex;
+justify-content: space-around;
+margin: 5%;
+}
+.exampleFormAdmin1{
+    width: 12vw;
+    text-align: center;
 }
 
 
