@@ -554,3 +554,26 @@ margin: 5%;
 
 
 
+/* NOT FOUND */
+.contenedor404{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.img404{
+    width: 100vw;
+}
+.texto-encima404{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    top: 8%;
+}
+
+/* FIN NOT FOUND  */
+
+
+

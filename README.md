@@ -1,6 +1,12 @@
 <h1> Sobre el proyecto: </h1>
 
-Atajos: <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-descripci%C3%B3n-del-proyecto-"> Descripción del proyecto</a> - <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-qui%C3%A9nes-somos-"> ¿Quiénes somos?</a> - <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-logo-"> Logo</a> - <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-estilos-"> Estilos </a> - <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-sitios-de-ejemplo-"> Sitios de referencia</a> - <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-etapas-del-proyecto-"> Etapas del proyecto</a>
+Atajos: 
+- <a href="https://githubcom0322CDFSNCN16LAEDgrupo-09#-descripci%C3%B3n-del-proyecto-">Descripción del proyecto<a> 
+- <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-qui%C3%A9nes-somos-"> ¿Quiénes somos<a> 
+- <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-logo-"> Logo</a> 
+- <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-estilos-"> Estilos </a> 
+- <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-sitios-de-ejemplo-"> Sitios de referencia</a> 
+- <a href="https://github.com/0322CDFSNCN16LAED/grupo-09#-etapas-del-proyecto-"> Etapas del proyecto</a>
 
 <hr>
 
@@ -24,10 +30,14 @@ Contaremos con servicio de calificacion de la calidad del servicio.
 <h2> ¿Quiénes somos? </h2>
 
 - Nicolas Horche : Tengo 28 años, estaba estudiando marketing y ahora me decidi por la programacion. Me gustan los animales y hacer deporte.
+
 - Pato Villanueva : Me llamo Patricio pero me dicen Pato. Trabajo como freelancer para agencias de publicidad con el armado de banners html5, videos e imgs para rrss, diseño/ maquetado de mailings.
   Tengo una bebe de 11 meses y hago crossfit para no estar todo el dia en la compu.
--
+
+- Tomás Aristimuño : Hola soy Tomás Aristimuño y tengo 22 años. Trabajo como cobrador para una fábrica de quesos y desde principio del 2022 empecé a estudiar programación.
+
 - Mateo Quotteri : 17 años, disfruto mucho ir al gimnasio y jugar o mirar futbol. Me considero un entusiasta de la tecnologia(sobre todo blockchain) y creo en un futuro descentralizado.
+
 - Gerardo Consiglio: Mi nombre es Gerardo pero todo el mundo me llama por mi segundo nombre, que es Martín. Tengo 31 años y un bebé de 5 meses que vino a darnos mucho amor. Soy un programador oxidado intentando volver de a poco al código. Estoy además en el último año de la carrera de Psicología. Mi profesión actual es más bién técnica, ya que me decico a la implementación de sistemas electrónicos de seguridad.
 
 </div>
