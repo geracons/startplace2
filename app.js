@@ -13,11 +13,16 @@ app.listen(PORT, () => {
 app.use(express.static(path.join(__dirname, "public")));
 
 //
-const mainRoutes = require("./routes/main.js")
 
+
+const mainRoutes = require("./routes/main.js")
+const productRoutes = require("./routes/productRoutes.js")
+const usersRoutes = require("./routes/usersRoutes.js")
 app.set("view engine", "ejs");
 
 app.use("/", mainRoutes);
+app.use("/views/product", productRoutes);
+app.use("/views/users", usersRoutes);
 
 
 /*
