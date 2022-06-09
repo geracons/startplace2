@@ -1,12 +1,16 @@
 const { path } = require("express/lib/application");
+const db = require('../data/db');
+const allproducts = db.getAll();
 
-module.exports = {
-
-
-  productCart: (req, res) => {
-    res.render("productcart");
-  },
-  productDetail: (req, res) => {
-    res.render("productdetail");
-  },
+// console.log(allproduct);
+const controller = {
+    // Root - Show all products
+    productDetail: (req, res) => {
+      res.render("./product/productdetail", {
+        allproducts: allproducts
+        });
+    },
+    
 };
+
+module.exports = controller;

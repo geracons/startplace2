@@ -1,7 +1,7 @@
 {
   "name": "proyecto-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1> Sobre el proyecto: </h1>",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,13 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geracons/startplace2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geracons/startplace2/issues"
+  },
+  "homepage": "https://github.com/geracons/startplace2#readme"
 }

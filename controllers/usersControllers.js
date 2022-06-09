@@ -3,10 +3,7 @@ const lugares = require("../destinos");
 
 module.exports = {
   login: (req, res) => {
-    res.render("users/login");
-  },
-  login: (req, res) => {
-    res.render("users/login");
+    res.render("/users/login");
   },
   formulario: (req, res) => {
     res.render("users/formulario", {
