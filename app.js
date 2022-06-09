@@ -27,7 +27,9 @@ app.use("/views/users", usersRoutes);
 app.use((req,res,next)=> {
     res.status(404).render("not-found")
 })
-
+app.get("/login", (req, res)  => {
+    res.sendFile(path.join(__dirname, "views/login.html"));
+});
 /*
 //camino path ruta
 app.get("/", (req, res) => {
