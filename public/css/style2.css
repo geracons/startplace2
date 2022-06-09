@@ -11,6 +11,9 @@
     flex: 100%;
     max-width: 80%;
   }
+  .promo {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {

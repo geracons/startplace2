@@ -555,22 +555,17 @@ margin: 5%;
 
 
 /* NOT FOUND */
-.contenedor404{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+main{
+    background-image:" /images/ethan-sykes-iISyBKOT2D0-unsplash.jpg";
+    background-repeat: repeat-x;
 }
-.img404{
-    width: 100vw;
-}
-.texto-encima404{
+
+
+.btn-outline-success{
     position: absolute;
-    top: 3%;
-    left: 3%;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    top: 8%;
+    width: 27vw;
+    left: 37%;
+    top: 85%;
 }
 
 /* FIN NOT FOUND  */
