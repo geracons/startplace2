@@ -5,10 +5,10 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
 
 
     },
@@ -18,10 +18,10 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     },
     {
         "id": 3,
@@ -29,10 +29,10 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     },
     {
         "id": 4,
@@ -40,19 +40,21 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     },
     {
         "id": 5,
-        "name": "Nikon Reflex D3500 - Kit",
-        "description": "Incluye la cámara D3500, el objetivo zoom AF-P DX NIKKOR 18-55mm y el superteleobjetivo zoom compacto AF-P DX NIKKOR 70-300mm. Ambos objetivos enfocan de forma rápida y silenciosa, lo que resulta ideal para grabar metraje de vídeo sin que se escuche apenas el ruido del accionamiento.",
-        "price": 53000,
-        "discount": 20,
-        "image": "img-camara-nikon.jpg",
-        "category": "in-sale"
+        "name": "Tour montañas rocosas",
+        "price": 4000,
+        "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
+        "image": "tour-alternativo-3-.jpg",
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     },
     {
         "id": 6,
@@ -60,10 +62,10 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     },
     {
         "id": 7,
@@ -71,10 +73,10 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     },
     {
         "id": 8,
@@ -82,10 +84,10 @@
         "price": 4000,
         "description": "Aqui va una descripcion del tour ofecido, con su duracion, lugar, requisitos y beneficios.",
         "image": "tour-alternativo-3-.jpg",
-        "continente": "",
-        "promedio": "",
-        "opiniones": "",
-        "pais": ""
+        "continent": "",
+        "rate": "",
+        "opinions": "",
+        "country": ""
     }
    
 ]

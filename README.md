@@ -34,7 +34,7 @@ Contaremos con servicio de calificacion de la calidad del servicio.
 - Pato Villanueva : Me llamo Patricio pero me dicen Pato. Trabajo como freelancer para agencias de publicidad con el armado de banners html5, videos e imgs para rrss, diseño/ maquetado de mailings.
   Tengo una bebe de 11 meses y hago crossfit para no estar todo el dia en la compu.
 
-- Tomás Aristimuño : Hola soy Tomás Aristimuño y tengo 22 años. Trabajo como cobrador para una fábrica de quesos y desde principio del 2022 empecé a estudiar programación.
+- Tomás Aristimuño : Hola soy Tomás Aristimuño y tengo 22 años. Trabajo como cobrador para una fábrica de quesos y desde principio del 2022 empecé a estudiar programación. 
 
 - Mateo Quotteri : 17 años, disfruto mucho ir al gimnasio y jugar o mirar futbol. Me considero un entusiasta de la tecnologia(sobre todo blockchain) y creo en un futuro descentralizado.
 
